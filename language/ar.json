@@ -429,12 +429,12 @@
           "default": "@answered answered"
         },
         {
-          "label": "عنوان شاشة التقديم",
+          "label": "عنوان شاشة الارسال",
           "default": "@answered Question(s) answered",
           "description": "سيتم استبدالanswered بعدد الأسئلة التي تمت الإجابة عنها."
         },
         {
-          "label": "معلومات شاشة التقديم",
+          "label": "معلومات شاشة الارسال",
           "default": "You have answered @answered questions, click below to submit your answers.",
           "description": "سيتم استبدالanswered بعدد الأسئلة التي تمت الإجابة عنها."
         },
