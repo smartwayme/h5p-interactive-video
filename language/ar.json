@@ -11,65 +11,65 @@
               "description": "حدد ملفات الفيديو التي ترغب في استخدامها في الفيديو التفاعلي الخاص بك. لضمان أقصى قدر من الدعم في متصفحات على الأقل إضافة نسخة من شريط الفيديو في ويب إم و MP4 الأشكال"
             },
             {
-              "label": "Start screen options (unsupported for YouTube videos)",
+              "label": "بدء خيارات الشاشة (غير مدعوم لمقاطع فيديو YouTube)",
               "fields": [
                 {
-                  "label": "The title of this interactive video",
-                  "default": "Interactive Video",
-                  "description": "Used in summaries, statistics etc."
+                  "label": "عنوان هذا الفيديو التفاعلي",
+                  "default": "فيديو تفاعلي ",
+                  "description": "تستخدم في الملخصات والإحصائيات وما إلى ذلك."
                 },
                 {
-                  "label": "Hide title on video start screen"
+                  "label": "إخفاء العنوان على شاشة بدء الفيديو"
                 },
                 {
-                  "label": "Short description (Optional)",
-                  "description": "Optional. Display a short description text on the video start screen."
+                  "label": "وصف قصير ( اختياري )",
+                  "description": "اختياري. عرض نص وصف قصير في شاشة بدء الفيديو."
                 },
                 {
-                  "label": "الملصق",
-                  "description": "Image displayed before the user launches the video. Does not work for YouTube Videos."
+                  "label": "صورة الملصق",
+                  "description": "الصورة المعروضة قبل أن يقوم المستخدم بتشغيل الفيديو. لا يعمل لمقاطع فيديو YouTube."
                 },
                 {
-                  "label": "معلومات حقوق النشر فيديو",
-                  "description": "معلومات بشأن حقوق الطبع والنشر من شريط الفيديو والعناصر المستخدمة في الفيديو"
+                  "label": "معلومات حقوق النشر للفيديو",
+                  "description": "المعلومات المتعلقة بحقوق الطبع والنشر الخاصة بالفيديو والعناصر المستخدمة في الفيديو."
                 }
               ]
             },
             {
-              "label": "Text tracks (unsupported for YouTube videos)",
+              "label": "مسارات النص (غير مدعوم لمقاطع فيديو YouTube)",
               "fields": [
                 {
-                  "label": "Available text tracks",
+                  "label": "مسارات النص المتاحة",
                   "entity": "Track",
                   "field": {
-                    "label": "Track",
+                    "label": "مسار",
                     "fields": [
                       {
-                        "label": "Track label",
-                        "description": "Used if you offer multiple tracks and the user has to choose a track. For instance 'Spanish subtitles' could be the label of a Spanish subtitle track.",
+                        "label": "لافتة المسار",
+                        "description": "تستخدم إذا كنت تقدم مسارات متعددة ويجب على المستخدم اختيار المسار. على سبيل المثال ، يمكن أن يكون 'الترجمة الإسبانية' عنوانًا لمسار ترجمة مصاحبة باللغة الإسبانية.",
                         "default": "Subtitles"
                       },
                       {
-                        "label": "Type of text track",
+                        "label": "نوع مسار النص",
                         "options": [
                           {
-                            "label": "Subtitles"
+                            "label": "عناوين فرعية"
                           },
                           {
-                            "label": "Captions"
+                            "label": "التسميات التوضيحية"
                           },
                           {
-                            "label": "Descriptions"
+                            "label": "التوصيفات"
                           }
                         ]
                       },
                       {
-                        "label": "Source language, must be defined for subtitles",
+                        "label": "لغة المصدر ، يجب أن يتم تعريفها من اجل العناوين الفرعية",
                         "default": "en",
                         "description": "Must be a valid BCP 47 language tag. If 'Subtitles' is the type of text track selected, the source language of the track must be defined."
                       },
                       {
-                        "label": "Track source (WebVTT file)"
+                        "label": "مصدر المسار (ملف WebVTT)"
                       }
                     ]
                   }
@@ -85,20 +85,20 @@
               "field": {
                 "fields": [
                   {
-                    "label": "عرض الوقت"
+                    "label": "وقت العرض"
                   },
                   {
-                    "label": "إيقاف مؤقت"
+                    "label": "ايقاف الفيديو"
                   },
                   {
-                    "label": "Display as",
-                    "description": "<b>Button</b> is a collapsed interaction the user must press to open. <b>Poster</b> is an expanded interaction displayed directly on top of the video",
+                    "label": "عرض كـ",
+                    "description": "<b>Button</b> هو تفاعل مطوي يجب على المستخدم الضغط عليه لفتحه. <b>Poster</b> عبارة عن تفاعل موسع يتم عرضه مباشرة أعلى الفيديو",
                     "options": [
                       {
-                        "label": "Button"
+                        "label": "زر"
                       },
                       {
-                        "label": "Poster"
+                        "label": "ملصق"
                       }
                     ]
                   },
@@ -106,8 +106,8 @@
                     "label": "تتحول إلى زر على الشاشات الصغيرة"
                   },
                   {
-                    "label": "التسمية",
-                    "description": "Label displayed next to interaction icon."
+                    "label": "اللافتة",
+                    "description": "اللافتة المعروضة بجانب ايقونةالتفاعل."
                   },
                   {},
                   {},
@@ -116,23 +116,23 @@
                   {},
                   {},
                   {
-                    "label": "التكيف",
+                    "label": "قابلية التكيف",
                     "fields": [
                       {
                         "label": "اتخاذ إجراء بشأن جميع الصحيح",
                         "fields": [
                           {
-                            "label": "Seek to",
-                            "description": "Enter timecode in the format M:SS"
+                            "label": "السعي لـ",
+                            "description": "ادخال رمز الوقت بالصيغة M:SS"
                           },
                           {
-                            "label": "Allow the user to opt out and continue"
+                            "label": "السماح للمستخدم بإلغاء الاشتراك والمتابعة"
                           },
                           {
-                            "label": "Message"
+                            "label": "الرسالة"
                           },
                           {
-                            "label": "Label for seek button"
+                            "label": "لافتة لزر الطلب"
                           }
                         ]
                       },
@@ -140,56 +140,56 @@
                         "label": "اتخاذ إجراء بشأن الخطأ",
                         "fields": [
                           {
-                            "label": "Seek to",
-                            "description": "Enter timecode in the format M:SS"
+                            "label": "السعي  لـ",
+                            "description": "ادخال رمز الوقت بالصيغة M:SS"
                           },
                           {
-                            "label": "Allow the user to opt out and continue"
+                            "label": "السماح للمستخدم بإلغاء الاشتراك والمتابعة"
                           },
                           {
-                            "label": "Message"
+                            "label": "الرسالة"
                           },
                           {
-                            "label": "Label for seek button"
+                            "label": "لافتة لزر الطلب"
                           }
                         ]
                       },
                       {
-                        "label": "Require full score for task before proceeding",
-                        "description": "For best functionality this option should be used in conjunction with the \"Prevent skipping forward in a video\" option of Interactive Video."
+                        "label": "يتطلب درجة كاملة للمهمة قبل التقدم",
+                        "description": "للحصول على أفضل نتائج ، يجب استخدام هذا الخيار مع الخيار \"منع تخطي الى الأمام  \" من الفيديو التفاعلي."
                       }
                     ]
                   },
                   {
-                    "label": "Visuals",
+                    "label": "مرئيات",
                     "fields": [
                       {
-                        "label": "Background color",
+                        "label": "لون الخلفية",
                         "default": "rgb(255, 255, 255)"
                       },
                       {
-                        "label": "Box shadow",
-                        "description": "يضيف ظل خفية حول التفاعل. قد تحتاج إلى تعطيل هذه التفاعلات شفاف تماما"
+                        "label": "تظليل صندوقي",
+                        "description": "يضيف ظل خفي حول التفاعل. قد ترغب في تعطيل هذا للحصول على تفاعلات شفافة تمامًا"
                       }
                     ]
                   },
                   {
-                    "label": "Go to on click",
+                    "label": "اذهب إلى عند النقر",
                     "fields": [
                       {
-                        "label": "Type",
+                        "label": "نوع",
                         "options": [
                           {
-                            "label": "Timecode"
+                            "label": "رمز الوقت"
                           },
                           {
-                            "label": "Another page (URL)"
+                            "label": "صفحة اخرى(URL)"
                           }
                         ]
                       },
                       {
-                        "label": "Go To",
-                        "description": "The target time the user will be taken to upon pressing the hotspot. Enter timecode in the format M:SS."
+                        "label": "اذهب الى",
+                        "description": "الوقت المستهدف الذي سيتم نقل المستخدم إليه عند الضغط على نقطة الاتصال. أدخل رمز الوقت بالشكل M:SS."
                       },
                       {
                         "label": "الرابط",
@@ -217,8 +217,8 @@
                         ]
                       },
                       {
-                        "label": "Visualize",
-                        "description": "Show that interaction can be clicked by adding a border and an icon"
+                        "label": "تصور",
+                        "description": "إظهار أنه يمكن النقر على التفاعل عن طريق إضافة بوردر وايقونة"
                       }
                     ]
                   }
@@ -245,71 +245,71 @@
       "label": "إعدادات سلوكية",
       "fields": [
         {
-          "label": "Start video at",
-          "description": "Enter timecode in the format M:SS"
+          "label": "ابدأ الفيديو في",
+          "description": "ادخل رمز الوقت بالشكل M:SS"
         },
         {
           "label": "التشغيل التلقائي الفيديو",
-          "description": "Start playing the video automatically"
+          "description": "ابدأ تشغيل الفيديو تلقائيًا"
         },
         {
-          "label": "Loop the video",
-          "description": "Check if video should run in a loop"
+          "label": "قم بتكرار الفيديو",
+          "description": "تحقق مما إذا كان يجب تكرار الفيديو"
         },
         {
-          "label": "Override \"Show Solution\" button",
-          "description": "This option determines if the \"Show Solution\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "label": "تجاوز زر \"اظهار الحل \"",
+          "description": "يحدد هذا الخيار ما إذا كان الزر \" إظهار الحل \" سيظهر لجميع الأسئلة ، أو يتم تعطيله للجميع أو تكوينه لكل سؤال على حدة.",
           "options": [
             {
-              "label": "Enabled"
+              "label": "تمكين"
             },
             {
-              "label": "Disabled"
+              "label": "تعطيل"
             }
           ]
         },
         {
-          "label": "Override \"Retry\" button",
-          "description": "This option determines if the \"Retry\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "label": "تجاوز زر \" اعادة المحاولة \"",
+          "description": "يحدد هذا الخيار ما إذا كان الزر \"اعادة المحاولة \" سيظهر لجميع الأسئلة ، أو يتم تعطيله للجميع أو تكوينه لكل سؤال على حدة.",
           "options": [
             {
-              "label": "Enabled"
+              "label": "تمكين"
             },
             {
-              "label": "Disabled"
+              "label": "تعطيل"
             }
           ]
         },
         {
-          "label": "Show button for rewinding 10 seconds",
-          "description": "This function is not available on iPad when using YouTube as video source"
+          "label": "إظهار الزر لإرجاع 10 ثوان",
+          "description": "هذه الوظيفة غير متاحة على iPad عند استخدام YouTube كمصدر للفيديو"
         },
         {
-          "label": "Prevent skipping forward in a video"
+          "label": "منع تخطي الأمام في الفيديو"
         },
         {
-          "label": "Deactivate sound",
-          "description": "Enabling this options will disable user video navigation through default controls."
+          "label": "إلغاء تنشيط الصوت",
+          "description": "يؤدي تمكين هذه الخيارات إلى تعطيل التنقل عبر الفيديو للمستخدم من خلال عناصر التحكم الافتراضية."
         },
         {
-          "label": "Deactivate sound",
-          "description": "Enabling this option will deactivate the video's sound and prevent it from being switched on."
+          "label": "إلغاء تنشيط الصوت",
+          "description": "يؤدي تمكين هذا الخيار إلى إلغاء تنشيط صوت الفيديو ومنع تشغيله."
         }
       ]
     },
     {
-      "label": "محلية",
+      "label": "التمركز",
       "fields": [
         {
           "label": "عنوان التفاعل",
           "default": "Interaction"
         },
         {
-          "label": "لقب التشغيل",
+          "label": "عنوان التشغيل",
           "default": "Play"
         },
         {
-          "label": "عنوان إيقاف مؤقت",
+          "label": "عنوان الايقاف",
           "default": "Pause"
         },
         {
@@ -317,7 +317,7 @@
           "default": "Mute"
         },
         {
-          "label": "عنوان عدم كتمان الصوت",
+          "label": "عنوان الغاء كتم الصوت",
           "default": "Unmute"
         },
         {
@@ -325,19 +325,19 @@
           "default": "Video Quality"
         },
         {
-          "label": "Video captions title",
+          "label": "عنوان تسميات الفيديو",
           "default": "Captions"
         },
         {
-          "label": "Close button text",
+          "label": "نص زر الاغلاق",
           "default": "أغلق"
         },
         {
-          "label": "عنوان ملء الشاشة",
+          "label": "عنوان وضع ملء الشاشة",
           "default": "Fullscreen"
         },
         {
-          "label": "عنوان الخروج ملء الشاشة",
+          "label": "عنوان الخروج من وضع ملء الشاشة",
           "default": "Fullscreen"
         },
         {
@@ -349,35 +349,35 @@
           "default": "Bookmarks"
         },
         {
-          "label": "Submit screen title",
+          "label": "عنوان عرض الشاشة",
           "default": "Submit screen"
         },
         {
-          "label": "التسمية الافتراضية لقابلية التكيف زر السعى",
+          "label": "اللافتة الافتراضية لزر استمرار الفيديو",
           "default": "Continue"
         },
         {
-          "label": "Default label for continue video button",
+          "label": "اللافتة الافتراضية لزر استمرار الفيديو",
           "default": "Continue with video"
         },
         {
-          "label": "Set playback rate",
+          "label": "ضبط معدل التشغيل",
           "default": "Playback Rate"
         },
         {
-          "label": "Rewind 10 Seconds",
+          "label": "التراجع 10 ثانية",
           "default": "Rewind 10 Seconds"
         },
         {
-          "label": "Navigation is disabled text",
+          "label": "نص التصفح معطل",
           "default": "Navigation is disabled"
         },
         {
-          "label": "Sound is disabled text",
+          "label": "نص الصوت معطل",
           "default": "Sound is disabled"
         },
         {
-          "label": "محذرا من أن المستخدم يجب أن يجيب على السؤال بشكل صحيح قبل المتابعة",
+          "label": "تحذير من أن المستخدم يجب أن يجيب على السؤال بشكل صحيح قبل المتابعة",
           "default": "تحتاج إلى الإجابة على جميع الأسئلة بشكل صحيح قبل المتابعة."
         },
         {
@@ -385,73 +385,73 @@
           "default": "الى الخلف"
         },
         {
-          "label": "Passed time hours",
+          "label": "الساعات المنقضية",
           "default": "Hours"
         },
         {
-          "label": "Passed time minutes",
+          "label": "الدقائق المنقضية",
           "default": "Minutes"
         },
         {
-          "label": "Passed time seconds",
+          "label": "الثواني المنقضية",
           "default": "Seconds"
         },
         {
-          "label": "Label for current time",
+          "label": "لافتة من اجل الوقت الحالي",
           "default": "Current time:"
         },
         {
-          "label": "Label for total time",
+          "label": "لافتة من اجل الوقت الاجمالي",
           "default": "Total time:"
         },
         {
-          "label": "Text for explaining navigation hotkey",
+          "label": "نص لشرح اختصارات التصفح",
           "default": "Use key k for starting and stopping video at any time"
         },
         {
-          "label": "Text explaining that a single interaction with a name has come into view",
+          "label": "نص يوضح أن تفاعلًا فرديًا مع اسم قد ظهر في العرض",
           "default": "Interaction appeared:"
         },
         {
-          "label": "Text for explaining that multiple interactions have come into view",
+          "label": "نص يوضح أن العديد من التفاعلات قد ظهرت في العرض",
           "default": "Multiple interactions appeared."
         },
         {
-          "label": "Video is paused announcement",
+          "label": "تم إيقاف الفيديو مؤقتًا",
           "default": "Video is paused"
         },
         {
-          "label": "Content label",
+          "label": "لافتة المحتوى",
           "default": "Content"
         },
         {
-          "label": "Answered message (@answered will be replaced with the number of answered questions)",
+          "label": "رسالة تمت الاجابة (سيتم استبدالanswered بعدد الأسئلة التي تمت الإجابة عليها)",
           "default": "@answered answered"
         },
         {
-          "label": "Submit screen title",
+          "label": "عنوان شاشة التقديم",
           "default": "@answered Question(s) answered",
-          "description": "@answered will be replaced by the number of answered questions."
+          "description": "سيتم استبدالanswered بعدد الأسئلة التي تمت الإجابة عنها."
         },
         {
-          "label": "Submit screen information",
+          "label": "معلومات شاشة التقديم",
           "default": "You have answered @answered questions, click below to submit your answers.",
-          "description": "@answered will be replaced by the number of answered questions."
+          "description": "سيتم استبدالanswered بعدد الأسئلة التي تمت الإجابة عنها."
         },
         {
-          "label": "Submit screen information for missing answers",
+          "label": "معلومات شاشة الارسال للاجابات المفقودة",
           "default": "You have not answered any questions."
         },
         {
-          "label": "Submit screen information for answer needed",
+          "label": "معلومات شاشة الارسال للاجابات اللازمة",
           "default": "You have to answer at least one question before you can submit your answers."
         },
         {
-          "label": "Submit screen submit button",
+          "label": "زر ارسال شاشة الارسال",
           "default": "Submit Answers"
         },
         {
-          "label": "Submit screen submit message",
+          "label": "رسالة ارسال شاشة الارسال",
           "default": "Your answers have been submitted!"
         },
         {
